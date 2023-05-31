@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width:767px) {
+
+
+    .body {
+        height: 100vh;
+        background-color: #9DC08B;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat (12, 1fr);
+    }
+
+    .Navbar {
+        grid-column: 1/ span 12;
+        grid-row: 1 / span 1;
+        background-color: #E55807;
+    }
+
+    .Footer {
+        grid-column: 1/ span 12;
+        grid-row: 12 / span 1;
+        background-color: #FCC2FC;
+    }
+
+    .Leftsidepanel {
+        grid-column: 1/ span 4;
+        grid-row: 2 / span 10;
+        background-color: #3F497F;
+    }
+
+    .Rightsidepanel {
+        grid-column: 9 / span 4;
+        grid-row: 2 / span 10;
+        background-color: #E57C23;
+    }
+
+    .Content {
+        grid-column: 5 / span 4;
+        grid-row: 2 / span 10;
+        background-color: #917FB3;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    .body {
+        height: 100vh;
+        background-color: #9DC08B;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat (12, 1fr);
+    }
+
+    .Navbar {
+        grid-column: 1/ span 12;
+        grid-row: 1 / span 1;
+        background-color: #E55807;
+    }
+
+    .Footer {
+        grid-column: 1/ span 12;
+        grid-row: 12 / span 1;
+        background-color: #FCC2FC;
+    }
+
+    .Leftsidepanel {
+        grid-column: 1/ span 4;
+        grid-row: 2 / span 10;
+        background-color: #3F497F;
+    }
+
+    .Rightsidepanel {
+        grid-column: 9 / span 4;
+        grid-row: 2 / span 10;
+        background-color: #E57C23;
+    }
+
+    .Content {
+        grid-column: 5 / span 4;
+        grid-row: 2 / span 10;
+        background-color: #917FB3;
+    }
+}
+
+@media screen and (min-width:1025px) {
+
+    .body {
+        height: 100vh;
+        background-color: #9DC08B;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat (12, 1fr);
+
+    }
+
+    .Navbar {
+        grid-column: 1/ span 12;
+        grid-row: 1 / span 1;
+        background-color: #E55807;
+    }
+
+    .Footer {
+        grid-column: 1/ span 12;
+        grid-row: 12 / span 1;
+        background-color: #FCC2FC;
+
+    }
+
+    .Leftsidepanel {
+        grid-column: 1/ span 2;
+        grid-row: 2 / span 10;
+        background-color: #3F497F;
+    }
+
+    .Rightsidepanel {
+        grid-column: 11 / span 2;
+        grid-row: 2 / span 10;
+        background-color: #E57C23;
+    }
+
+    .Content {
+        grid-column: 3 / span 8;
+        grid-row: 2 / span 10;
+        background-color: #917FB3;
+    }
+}
